@@ -253,11 +253,25 @@ Für dieses aufeinander Zugehen der Teile werden immer Paare betrachtet, die im 
 
 Abprallen und das verhindern dessen\\
 
-Greifen und Hochheben von ganzen Gebäuden \\
+Mehrere Einzelteile, die schon zusammen sind sollen an einer Stelle genommen und bewegt werden können und sich dabei wie ein Ganzes verhalten.
+Um das zu erreichen versuchte ich als erstes fixed joints zu verwenden, über die das Unity Manual folgendes schreibt: \\
+''Restricts the movement of a rigid body to follow the movement of the rigid body it is attached to. This is useful when you need rigid bodies that easily break apart from each other, or you want to connect the movement of two rigid bodies without parenting in a Transform hierarchy.'' \\
+Anhand dieser Beschreibung erschienen sie wie eine hervorragende Lösung, bei der Verwendung erschien dann allerdings ein Verhalten, dass sie als alleinige Lösung für unbrauchbar erscheinen ließ: Wenn man ein Ende greift und bewegt erscheint nicht der gesamte Block als ganzes bewegt zu werden, sondern alle mit dem primär gegriffenen Einzelteil verbundenen Stücke ruckelten hinterher, was unangenehm anzuschauen war und nicht dem gewünschten Verhalten entsprach.
+Sie konnten dabei auch auseinanderbrechen und in der Luft hängenbleiben.
+Das Glossar erwähnt tatsächlich etwas derartiges: \\
+''Fixed Joint:
+A joint type that is completely constrained, allowing two objects to be held together. Implemented as a spring so some motion may still occur.'' \\
 
-Joints und daraus resultierendes Zittern vs: \\
+Mein nächster Lösungsansatz war die Greif Funktion aus dem Oculus Plugin für meinen speziellen Fall abzuwandeln. Hierfür schrieb ich die Unterklassen GreifbaresEinzelteil als Unterklasse von OVRGrabbable und MehrfachGreifer von OVRGrabber.
+Diese sehen vor, dass mehr als nur ein Objekt von einer Hand hochgehoben werden kann und alle mit dem primär gegriffenen Einzelteil verbundenen Teile von der Hand bewegt werden. Dadurch muss dies nicht mehr von Unitys Physics Engine über Fixed Joints übernommen werden.
+Es sorgte dafür, dass die Bewegung ordentlich abläuft und ich nehme auch an, dass es etwas performanter sein dürfte.\\
+% so ne Spekulation gehört vermutlich nicht hier rein. möchte ich das testen? ist das relevant? Aber ich glaube dass es war sein sollte
 
-Versuch des abänderns von Oculus scripts um mehrere Objekte hochzuheben 
+Funktionen dieser zwei Klassen ausführen\\
+
+Weiterhin bestehende Probleme: 
+Teile rütteln aneinander und 
+es ist schwer sie richtig zusammen zu setzen
 
 \subsection{offhandgrab / zerlegen mit beiden Händen}
 

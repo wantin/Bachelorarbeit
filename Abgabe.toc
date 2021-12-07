@@ -9,12 +9,12 @@
 \contentsline {subsection}{\numberline {3.2}Resultierende Anforderungen}{3}{}%
 \contentsline {section}{\numberline {4}Technische Umsetzung}{4}{}%
 \contentsline {subsection}{\numberline {4.1}Zerlegen der Gebäude}{4}{}%
-\contentsline {subsection}{\numberline {4.2}offhandgrab / zerlegen mit beiden Händen}{4}{}%
+\contentsline {subsection}{\numberline {4.2}offhandgrab / zerlegen mit beiden Händen}{5}{}%
 \contentsline {subsection}{\numberline {4.3}Nutzbarkeit der exisstierenden 3D Modelle}{5}{}%
-\contentsline {subsection}{\numberline {4.4}Erzeugen eines aufschlussreichen Innenlebens}{5}{}%
-\contentsline {subsection}{\numberline {4.5}Performance}{5}{}%
-\contentsline {section}{\numberline {5}Ausblick auf mögliche Anwendung und Erweiterung}{6}{}%
-\contentsline {section}{\numberline {6}Fazit}{7}{}%
-\contentsline {section}{\numberline {7}Anhang}{8}{}%
-\contentsline {subsection}{\numberline {7.1}Glossar}{8}{}%
-\contentsline {section}{\numberline {8}Notizen}{9}{}%
+\contentsline {subsection}{\numberline {4.4}Erzeugen eines aufschlussreichen Innenlebens}{6}{}%
+\contentsline {subsection}{\numberline {4.5}Performance}{6}{}%
+\contentsline {section}{\numberline {5}Ausblick auf mögliche Anwendung und Erweiterung}{7}{}%
+\contentsline {section}{\numberline {6}Fazit}{8}{}%
+\contentsline {section}{\numberline {7}Anhang}{9}{}%
+\contentsline {subsection}{\numberline {7.1}Glossar}{9}{}%
+\contentsline {section}{\numberline {8}Notizen}{10}{}%
