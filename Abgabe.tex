@@ -22,7 +22,8 @@
 
 \usepackage{graphicx} % support the \includegraphics command and options
 
-% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+%\usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+\setlength{\parskip}{1em}
 
 %%% PACKAGES
 \usepackage{booktabs} % for much better looking tables
@@ -238,36 +239,92 @@ Die Gebäude der HTWK müssen klar erkennbar sein und die Information die man da
 
 Vollständigkeit ist nicht notwendig und auch nicht machbar.
 
+\subsection{Vergleichsanwendungen}
 
+\subsubsection{Google Earth VR}
+jhkf
+
+\subsection{Vision}
+
+%Spielzeugmodelle: 
+Das Ziel die Gebäude kennen zu lernen möchte ich verfolgen indem man die Gebäude als Spielzeug in der Welt hat. Anstatt also durch die Straßen zu gehen, so wie man das auch in der echten Welt, oder Google Street view auch könnte hat man eine Form von Überblick, die ein bisschen aus der Vogelperspektive ist, aber auch ermöglicht sich Details anzuschauen, da man Gebäude auch hochheben und genauer betrachten kann.
+
+%Bewegung gelöst
+Wenn die Gebäude klein dargestellt werden hat das zudem den Vorteil, dass man nicht eine Welt durchqueren muss, die deutlich größer als der für den Spieler in der Echten Welt zur Verfügung stehende Bereich ist. Somit kann es möglich sein, dass alle Bewegung des Charakters im Spiel auch von dem Menschen, der die VR Brille nutzt ausgeführt werden, was Immersion unterstützt. [citation needed]
+
+%Überblick %Wer braucht schon überblick?
+
+%Öffnen %hatte ich hier als Stichpunkt stehen, aber weiß nicht, was das anderes als Auseinandernehmen oder vielleicht Reinschauen sein soll
+
+%Reinschauen: 
+In die Gebäude hineinzuschauen fügt viel wichtigen Einblick hinzu, da gerade ein Verständnis der Gänge hilft zu verstehen wie man sich durch die Hochschule bewegen kann. Außerdem kann man erkennen wo wichtige Orte sind und wie die Raumnummernverteilung ist.
+
+%Auseinandernehmen: 
+Dem Nutzer die Möglichkeit zu geben die Spielzeuggebäude in mehrere Stücke zu zerteilen kann dieses Hineinschauen erlauben. Wenn dabei die Stücke in die die Gebäude zerlegt werden nicht durch die Physik der Anwendung oder ähnliches, sondern durch im Vorhinein festgelegte Einzelteile bestimmt werden gibt es hier auch die Möglichkeit bestimmte Eigenheiten oder besonders wichtige Orte hervorgehoben zu präsentieren.
+
+%Spieltrieb: 
+Gegenstände zerlegen und wieder zusammenbauen zu können spricht auch einen Spieltrieb an [citation needed], der ja einer der großen Gründe dafür ist, dass diese Anwendung in diesem Medium das Potential eines Mehrwerts bietet.
+
+%Kinderzimmer:
+Mit Modellspielzeug zu spielen passt sehr natürlich in das Setting eines Kinderzimmers. Das, sowie den Spieler in Kindergröße schlüpfen zu lassen, soll ihm helfen aus seiner gewohnten Umgebung herauszugehen und sich voll kindlicher Neugier in das Erkunden zu stürzen.
+
+\subsection{nice-to-have features}
+
+%Tepich:
+Die Gebäude und der Spieler können auf einem Spielteppich platziert sein, welcher die Anordnung der Gebäude sowie ihre Nummern aufgedruckt hat, sodass wenn man diese Hochhebt man sieht wo man sie weggenommen hat und die Einordnung einfach fällt. Hierauf könnten auch die nächsten Haltestellen oder andere nützliche Umgebungsinformationen zu finden sein. 
+
+%Gegenstände in den Räumen der zerlegbaren Gebäude:
+In manchen der Räume können Gegenstände liegen ähnlich zu einem Puppenhaus, sodass diese Räume hervorgehoben werden und ihre Funktion deutlich wird. Ein Beispiel wäre, dass in dem Entsprechenden Gang ein Prüfungsplan hängt, oder in einem PC Pool ein Computer steht, in den WCs eine Toilette oder in den PC-Pools in denen die Drucker nutzbar sind ein Drucker.
+
+%Interaktion
+Bei manchen davon erscheint es sinnvoll, dass sie fest sind und nur durch ihre Existenz signalisieren, was es dort gibt. An anderen Stellen kann es nützlich sein dass sie herausnehmbar sind und beim greifen etwas tun, wie Töne ausgeben, oder weitere Information einblenden. Zum Beispiel könnte ein Computer angehen und zeigen was für ein Betriebssystem in diesem Raum installiert ist.
+%TODO: Mehr Interaktions und Spielzeugkistenmöglichkeiten und Aufgaben
+
+%Spielzeugkiste mit was genau
+Für Information, die zwar mit einem Gegenstand gut zu symbolisieren oder interessant verwirklicht werden kann, aber keinen klaren räumlichen Bezug ist auch eine Spielzeugkiste, die am Rand steht eine Möglichkeit. 
+%Poster
+Genauso würde es in das Setting passen Poster an die Wände zu hängen um dort etwas allgemeines anzuzeigen wie zum Beispiel erste Bedienschritte.
+
+%Aufgaben oder Ziele für den Spieler
+Erkunden basiert auf selbst gesetzten Zielen, [citation needed] aber nach einem ersten Umschauen Anregungen zu erhalten nach was man suchen könnte helfen falls bei Spielern schnell eine Ziellosigkeit eintritt.
+Wenn manche der in den Räumen verteilten Gegenständen den Spieler auffordern etwas auszuprobieren oder zu finden ohne das strikt vorzuschreiben könnte die Selbstbestimmung unverletzt bleiben und trotzdem eine Vorstellung von Arten sich mit der präsentierten Information auseinanderzusetzen angeboten werden. Ein Beispiel hier wäre ein Rollstuhl, der einen bei Kontakt auffordert ihn entlang barrierefreier Pfade an einen bestimmten Ort zu bewegen oder alternativ sich nur entlang dieser Wege bewegen kann und aufruft auszuprobieren, wie man ihn bewegen kann. 
+
+%Der Boden ist Lava
+
+%Wiederaufbauhilfen
 
 
 \section{Technische Umsetzung}
 
 \subsection{Zerlegen der Gebäude}
 
-Eine Kernfunktion des Zerlegens sollte sein, dass die Gebäude aus den Einzelteilen einfach und richtig wieder zusammenbaubar sind. Dafür sollten die Einzelteile, wenn sie nah an ihren Verbindungsstücken sind wie Magnete passend aneinander kommen.\\
+Eine Kernfunktion des Zerlegens sollte sein, dass die Gebäude aus den Einzelteilen einfach und richtig wieder zusammenbaubar sind. Dafür sollten die Einzelteile, wenn sie nah an ihren Verbindungsstücken sind wie Magnete passend aneinander kommen.
 
-Für dieses aufeinander Zugehen der Teile werden immer Paare betrachtet, die im zusammengesetzten Modell eine sie verbindende Fläche haben. \\
+Für dieses aufeinander Zugehen der Teile werden immer Paare betrachtet, die im zusammengesetzten Modell eine sie verbindende Fläche haben. 
 
-Überprüfen distanz collider vs know it  +  Identifizieren durch in der Szene übergeben vs tags \\
+Überprüfen distanz collider vs know it  +  Identifizieren durch in der Szene übergeben vs tags 
 
-Abprallen und das verhindern dessen\\
+Abprallen und das verhindern dessen
 
 Mehrere Einzelteile, die schon zusammen sind sollen an einer Stelle genommen und bewegt werden können und sich dabei wie ein Ganzes verhalten.
-Um das zu erreichen versuchte ich als erstes fixed joints zu verwenden, über die das Unity Manual folgendes schreibt: \\
-''Restricts the movement of a rigid body to follow the movement of the rigid body it is attached to. This is useful when you need rigid bodies that easily break apart from each other, or you want to connect the movement of two rigid bodies without parenting in a Transform hierarchy.'' \\
+Um das zu erreichen versuchte ich als erstes fixed joints zu verwenden, über die das Unity Manual folgendes schreibt: 
+''Restricts the movement of a rigid body to follow the movement of the rigid body it is attached to. This is useful when you need rigid bodies that easily break apart from each other, or you want to connect the movement of two rigid bodies without parenting in a Transform hierarchy.'' 
+
+https://docs.unity3d.com/Manual/Joints.html
+
 Anhand dieser Beschreibung erschienen sie wie eine hervorragende Lösung, bei der Verwendung erschien dann allerdings ein Verhalten, dass sie als alleinige Lösung für unbrauchbar erscheinen ließ: Wenn man ein Ende greift und bewegt erscheint nicht der gesamte Block als ganzes bewegt zu werden, sondern alle mit dem primär gegriffenen Einzelteil verbundenen Stücke ruckelten hinterher, was unangenehm anzuschauen war und nicht dem gewünschten Verhalten entsprach.
 Sie konnten dabei auch auseinanderbrechen und in der Luft hängenbleiben.
-Das Glossar erwähnt tatsächlich etwas derartiges: \\
-''Fixed Joint:
-A joint type that is completely constrained, allowing two objects to be held together. Implemented as a spring so some motion may still occur.'' \\
+Das Glossar erwähnt tatsächlich etwas derartiges: \newline
+''Fixed Joint: A joint type that is completely constrained, allowing two objects to be held together. Implemented as a spring so some motion may still occur.'' \newline
+% https://docs.unity3d.com/Manual/Glossary.html#FixedJoint
 
 Mein nächster Lösungsansatz war die Greif Funktion aus dem Oculus Plugin für meinen speziellen Fall abzuwandeln. Hierfür schrieb ich die Unterklassen GreifbaresEinzelteil als Unterklasse von OVRGrabbable und MehrfachGreifer von OVRGrabber.
 Diese sehen vor, dass mehr als nur ein Objekt von einer Hand hochgehoben werden kann und alle mit dem primär gegriffenen Einzelteil verbundenen Teile von der Hand bewegt werden. Dadurch muss dies nicht mehr von Unitys Physics Engine über Fixed Joints übernommen werden.
-Es sorgte dafür, dass die Bewegung ordentlich abläuft und ich nehme auch an, dass es etwas performanter sein dürfte.\\
+Es sorgte dafür, dass die Bewegung ordentlich abläuft und ich nehme auch an, dass es etwas performanter sein dürfte.
+
 % so ne Spekulation gehört vermutlich nicht hier rein. möchte ich das testen? ist das relevant? Aber ich glaube dass es war sein sollte
 
-Funktionen dieser zwei Klassen ausführen\\
+Funktionen dieser zwei Klassen ausführen
 
 Weiterhin bestehende Probleme: 
 Teile rütteln aneinander und 
