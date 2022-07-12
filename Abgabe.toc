@@ -1,24 +1,24 @@
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Einleitung}{1}{}%
-\contentsline {section}{\numberline {2}Hintergrund}{2}{}%
-\contentsline {subsection}{\numberline {2.1}Virtual Reality}{2}{}%
-\contentsline {subsection}{\numberline {2.2}Entwicklung in Unity}{2}{}%
-\contentsline {subsection}{\numberline {2.3}Oculus Plugin}{2}{}%
-\contentsline {section}{\numberline {3}Konzeption}{3}{}%
-\contentsline {subsection}{\numberline {3.1}Nutzungsszenario}{3}{}%
-\contentsline {subsection}{\numberline {3.2}Resultierende Anforderungen}{3}{}%
-\contentsline {subsection}{\numberline {3.3}Vergleichsanwendungen}{3}{}%
-\contentsline {subsubsection}{\numberline {3.3.1}Google Earth VR}{3}{}%
-\contentsline {subsection}{\numberline {3.4}Vision}{3}{}%
-\contentsline {subsection}{\numberline {3.5}nice-to-have features}{4}{}%
-\contentsline {section}{\numberline {4}Technische Umsetzung}{6}{}%
-\contentsline {subsection}{\numberline {4.1}Zerlegen der Gebäude}{6}{}%
-\contentsline {subsection}{\numberline {4.2}offhandgrab / zerlegen mit beiden Händen}{7}{}%
-\contentsline {subsection}{\numberline {4.3}Nutzbarkeit der exisstierenden 3D Modelle}{8}{}%
-\contentsline {subsection}{\numberline {4.4}Erzeugen eines aufschlussreichen Innenlebens}{8}{}%
-\contentsline {subsection}{\numberline {4.5}Performance}{8}{}%
-\contentsline {section}{\numberline {5}Ausblick auf mögliche Anwendung und Erweiterung}{9}{}%
-\contentsline {section}{\numberline {6}Fazit}{10}{}%
-\contentsline {section}{\numberline {7}Anhang}{11}{}%
-\contentsline {subsection}{\numberline {7.1}Glossar}{11}{}%
-\contentsline {section}{\numberline {8}Notizen}{12}{}%
+\contentsline {section}{\numberline {2}Hintergrund}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Virtual Reality}{1}{}%
+\contentsline {subsection}{\numberline {2.2}Entwicklung in Unity}{1}{}%
+\contentsline {subsection}{\numberline {2.3}Oculus Plugin}{1}{}%
+\contentsline {section}{\numberline {3}Konzeption}{2}{}%
+\contentsline {subsection}{\numberline {3.1}Nutzungsszenario}{2}{}%
+\contentsline {subsection}{\numberline {3.2}Resultierende Anforderungen}{2}{}%
+\contentsline {subsection}{\numberline {3.3}Vergleichsanwendungen}{2}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Google Earth VR}{2}{}%
+\contentsline {subsection}{\numberline {3.4}Vision}{2}{}%
+\contentsline {subsection}{\numberline {3.5}nice-to-have features}{3}{}%
+\contentsline {section}{\numberline {4}Technische Umsetzung}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Zerlegen der Gebäude}{5}{}%
+\contentsline {subsection}{\numberline {4.2}offhandgrab / zerlegen mit beiden Händen}{6}{}%
+\contentsline {subsection}{\numberline {4.3}Nutzbarkeit der exisstierenden 3D Modelle}{7}{}%
+\contentsline {subsection}{\numberline {4.4}Erzeugen eines aufschlussreichen Innenlebens}{7}{}%
+\contentsline {subsection}{\numberline {4.5}Performance}{7}{}%
+\contentsline {section}{\numberline {5}Ausblick auf mögliche Anwendung und Erweiterung}{8}{}%
+\contentsline {section}{\numberline {6}Fazit}{9}{}%
+\contentsline {section}{\numberline {7}Anhang}{10}{}%
+\contentsline {subsection}{\numberline {7.1}Glossar}{10}{}%
+\contentsline {section}{\numberline {8}Notizen}{11}{}%
